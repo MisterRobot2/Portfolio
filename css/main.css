@@ -1,12 +1,24 @@
 body
 {
-    background-color: mintcream;
     margin: 0%;
+    background-color: lightcyan;
+}
+
+footer
+{
+    background-color: rgb(195, 236, 236);
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 900;
 }
 
 div
 {
-    background-color: lightcyan;
     padding-bottom: 1%;
 }
 
@@ -23,6 +35,10 @@ table
 {
     background-color: royalblue;
     border-radius: 10%;
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    margin-top: 10px;
 }
 
 th
@@ -34,11 +50,24 @@ th
 .Title
 {
     color: black;
-    font-size: 300%;
+    font-size: 200%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(195, 236, 236);
+    padding-bottom: 30px;
 
+}
+
+.AvitarIcon
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    top: 30px;
 }
 
 .Title:hover
@@ -52,6 +81,7 @@ th
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    
 }
 
 .NavigationLink:hover
@@ -59,24 +89,38 @@ th
     color: grey;
 }
 
-.TopContainer
+/* Images */
+.CenterCity
 {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(238, 208, 144);
+    padding: 0;
+    margin: 0 auto;
+    position: static;
+    align-content: center;
+    display: block;
 }
 
-.MiddleContainer
+.UnderCity
 {
-    width: 200px;
-    height: 200px;
-    background-color: lightgreen;
+    background-color: #656764;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    padding-bottom: 50px;
 }
 
-.BottemContrainer
+.UnderCityText
+{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.Cloud
 {
     width: 200px;
-    height: 200px;
-    background-color:mediumvioletred;
+    height: 126px;
+    position: absolute;
+
 }
 
