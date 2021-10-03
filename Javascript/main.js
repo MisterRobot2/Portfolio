@@ -1,5 +1,5 @@
 ﻿//Notice Settings
-var ShowNotice = true;
+var ShowNotice = false;
 var CurrentFooterNotice = ""+
     "<p style=\"display: inline;\">If anything is missing : </p>\n" +
     "<a href=\"https://elientwistleportfolio.wordpress.com/\" target=\"_blank\" class=\"NavigationLink\" style=\"color: black; display: inline; text-decoration: underline;\">check out the old site</a>\n" +
