@@ -12,7 +12,7 @@ var DoHideNotice = sessionStorage.getItem("DoHideNotice");
 document.body.innerHTML = "" +
     "<h1 class='Title'> " +
         "<img class = 'AvitarIcon' src='/Images/Avatar.png' alt='Robot Holding Wrench' width='200px' height='200px'> " +
-        "<a href='index.html' class='Title'>Eli Entwistle's Portfolio</a> " +
+        "<a href='https://elientwistle.com' class='Title'>Eli Entwistle's Portfolio</a> " +
     "</h1> " +
     "<div class='SubTitle'> <a class='SubTitleButtons' href='https://www.elientwistle.com'>Homepage</a> <span style='position: center; text-align: right; margin-left: 5%'>Projects: <a class='SubTitleButtons' href='https://www.elientwistle.com/Pages/TurningTides' style='margin-left: 10px;'>Turning Tides</a> <a class='SubTitleButtons' href='https://www.elientwistle.com/Pages/StellarRampart'>Stellar Rampart</a></span> <a class='SubTitleButtons' href='https://www.elientwistle.com/Pages/CreativeClockworks'>Other Projects</a></div>";
 
