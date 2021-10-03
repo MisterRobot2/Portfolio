@@ -1,8 +1,8 @@
 ﻿//Notice Settings
 var ShowNotice = true;
 var CurrentFooterNotice = ""+
-    "<p style=\"display: inline;\">This site is not finished : </p>\n" +
-    "<a href=\"https://elientwistleportfolio.wordpress.com/\" target=\"_blank\" class=\"NavigationLink\" style=\"color: black; display: inline; text-decoration: underline;\">Click here for old portfolio site</a>\n" +
+    "<p style=\"display: inline;\">If anything is missing : </p>\n" +
+    "<a href=\"https://elientwistleportfolio.wordpress.com/\" target=\"_blank\" class=\"NavigationLink\" style=\"color: black; display: inline; text-decoration: underline;\">check out the old site</a>\n" +
     "";
 //Other vars
 var DocumentPreHTML = document.body.innerHTML;
